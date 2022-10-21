@@ -5,3 +5,19 @@
 body {
   background-color: #272829;
 }
+
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.project-imgs {
+  height: 15vh;
+  width: 27vh;
+}
+
+.projects-title {
+  color: antiquewhite;
+  text-align: center;
+}
