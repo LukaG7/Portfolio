@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Projects />
+      <Routes>
+        <Route to="/projects" element={<Projects />} />
+      </Routes>
     </div>
   );
 }

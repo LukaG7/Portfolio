@@ -1,7 +1,7 @@
 import scorecard from '../images/scorecard-img.png';
 import gymbot from '../images/gymbot-img.png';
 import vicepong from '../images/vicepong-img.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Projects() {
     return (
