@@ -7,10 +7,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Link to={<Projects/>}>Projects</Link>
-      <Projects />
       <Routes>
-        <Route to="/projects" element={<Projects />} />
+        <Route path='/projects' element={<Projects />}/> 
       </Routes>
     </div>
   );
