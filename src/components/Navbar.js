@@ -4,10 +4,10 @@ function NavBar() {
     return (
         <div className='sidebar'>
             <img src={myLogo} className='myLogo'/>
-            <h3>Lukas Gonzalez</h3>
+            {/* <h3>Lukas Gonzalez</h3>
             <h3>About Me</h3>
             <h3>Education</h3>
-            <h3>Projects</h3>
+            <h3>Projects</h3> */}
         </div>
     )
 }
