@@ -84,3 +84,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.butt-link {
+  text-decoration: none;
+}
