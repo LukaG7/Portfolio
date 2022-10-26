@@ -10,9 +10,9 @@ function Projects() {
                 <h1 className='projects-title'>ScoreCard</h1>
                 <img className='project-imgs' src={scorecard}/>
                 <div className='button-div'>
-                    <Link className='butt-link'>
+                    <a href='https://elegant-centaur-2ad7d4.netlify.app/' target='_blank' className='butt-link'>
                         <button className='pro-buttons'>View Project</button>  
-                    </Link> 
+                    </a> 
                 </div>
                 
             </div>
@@ -20,9 +20,9 @@ function Projects() {
                 <h1 className='projects-title'>Gym Bot</h1>
                 <img className='project-imgs' src={gymbot}/>
                 <div className='button-div'>
-                    <Link className='butt-link'>
+                    <a href='https://gym-bot-app.herokuapp.com/' target='_blank' className='butt-link'>
                         <button className='pro-buttons'>View Project</button>  
-                    </Link>              
+                    </a>              
                 </div>
                 
             </div>
@@ -30,9 +30,9 @@ function Projects() {
                 <h1 className='projects-title'>Vice Pong</h1>
                 <img className='project-imgs' src={vicepong}/>
                 <div className='button-div'>
-                    <Link className='butt-link'>
+                    <a href='https://lukag7.github.io/Game-Project/' target='_blank' className='butt-link'>
                         <button className='pro-buttons'>View Project</button>  
-                    </Link> 
+                    </a> 
                 </div>
             </div>
         </div>
