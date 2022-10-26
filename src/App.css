@@ -88,3 +88,11 @@ body {
 .butt-link {
   text-decoration: none;
 }
+
+.contactme-form {
+  width: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

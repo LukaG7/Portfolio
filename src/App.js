@@ -10,9 +10,6 @@ function App() {
       <NavBar />
       <Projects />
       <ContactMe />
-      {/* <Routes>
-        <Route path='/projects' element={<Projects />}/> 
-      </Routes> */}
     </div>
   );
 }
