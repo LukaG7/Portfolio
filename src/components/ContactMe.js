@@ -3,7 +3,7 @@
 function ContactMe() {
     return (
         <div>
-            <h3>lukasfullstack@gmail.com</h3>
+            <h1>Contact Me</h1>
 
             <a href="https://github.com/LukaG7" target='_blank'>
                 <h3>GitHub</h3>
@@ -12,6 +12,8 @@ function ContactMe() {
             <a href="https://www.linkedin.com/in/lukas-gonzalez/" target='_blank'>
                 <h3>LinkedIn</h3>
             </a>
+
+            <h3>lukasfullstack@gmail.com</h3>
 
             <form className="contactme-form">
                 <label>

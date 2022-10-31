@@ -96,3 +96,12 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  margin-right: 8vh;
+  color: antiquewhite;
+}
