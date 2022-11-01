@@ -95,13 +95,30 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
-.homepage {
+.contactme {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  color: antiquewhite;
+}
+
+.name-fs {
+  display: flex;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   flex-direction: column;
   justify-content: end;
   align-items: flex-end;
-  margin-right: 8vh;
+  margin-right: 12vh;
+  padding-top: 25px;
   color: antiquewhite;
+  transition: all 0.3s ease-in;
+}
+
+.name-h1 {
+  margin-bottom: 5px;
 }
