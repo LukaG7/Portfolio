@@ -3,7 +3,7 @@ import gymbot from '../images/gymbot-img.png';
 import vicepong from '../images/vicepong-img.png';
 import { Link } from 'react-router-dom';
 
-function Projects() {
+function About() {
     return (
         <div className='projects'>
             <div className='pro-divs'>
@@ -39,4 +39,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default About;
