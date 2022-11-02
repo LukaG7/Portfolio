@@ -20,6 +20,7 @@ function ContactMe() {
 
   return (
     <form className='email-form' ref={form} onSubmit={sendEmail}>
+        <h3>Send me a message! 👇</h3>
       <label className='contact-label'>Name</label>
       <input className='contact-input' type="text" name="user_name" />
       <label className='contact-label'>Email</label>
