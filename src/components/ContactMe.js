@@ -1,36 +1,34 @@
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import '../App.scss';
 
 function ContactMe() {
-    return (
-        <div className="contactme">
-            {/* <h1>Contact Me</h1>
 
-            <a href="https://github.com/LukaG7" target='_blank'>
-                <h3>GitHub</h3>
-            </a>
-            
-            <a href="https://www.linkedin.com/in/lukas-gonzalez/" target='_blank'>
-                <h3>LinkedIn</h3>
-            </a>
+  const form = useRef();
 
-            <h3>lukasfullstack@gmail.com</h3> */}
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-            <form className="contactme-form">
-                <label>
-                    Email
-                </label>
-                <input></input>
-                <label>
-                    Name
-                </label>
-                <input></input>
-                <label>
-                    Message
-                </label>
-                <input></input>
-            </form>
-        </div>
-    )
-}
+    emailjs.sendForm('service_8w4sjl3', 'template_k9g5fja', form.current, 'AsqXIP3NZtfkRQFA7')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  return (
+    <form className='email-form' ref={form} onSubmit={sendEmail}>
+      <label className='contact-label'>Name</label>
+      <input className='contact-input' type="text" name="user_name" />
+      <label className='contact-label'>Email</label>
+      <input className='contact-input' type="email" name="user_email" />
+      <label className='contact-label'>Message</label>
+      <textarea className='contact-text-area' name="message" />
+      <input className='contact-input' type="submit" value="Send" />
+    </form>
+  );
+};
 
 export default ContactMe;

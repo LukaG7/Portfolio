@@ -10,6 +10,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
 }
 
 .project-imgs {
@@ -36,7 +38,7 @@ body {
   font-weight: 600;
   line-height: normal;
   margin: 0;
-  min-height: 60px;
+  min-height: 40px;
   min-width: 0;
   outline: none;
   padding: 1px 18px;
@@ -50,13 +52,13 @@ body {
   will-change: transform;
 }
 
-.pro-buttons:disabled {
+/* .pro-buttons:disabled {
   background-color: rgba(0, 0, 0, .12);
   box-shadow: rgba(0, 0, 0, .2) 0 0 0 0, rgba(0, 0, 0, .14) 0 0 0 0, rgba(0, 0, 0, .12) 0 0 0 0;
   color: rgba(0, 0, 0, .37);
   cursor: default;
   pointer-events: none;
-}
+} */
 
 .pro-buttons:hover {
   color: black;
