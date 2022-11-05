@@ -115,3 +115,15 @@ body {
 .name-h1 {
   margin-bottom: 5px;
 }
+
+.homepage {
+  color: antiquewhite;
+}
+
+.p-div {
+  font-size: 20px;
+  width: 60vh;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 200px;
+}
