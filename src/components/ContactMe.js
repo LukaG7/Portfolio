@@ -11,6 +11,8 @@ function ContactMe() {
 
     emailjs.sendForm('service_8w4sjl3', 'template_k9g5fja', form.current, 'AsqXIP3NZtfkRQFA7')
       .then((result) => {
+          alert('Message Sent!')
+          window.location.reload(false)
           console.log(result.text);
           console.log("message sent")
       }, (error) => {
